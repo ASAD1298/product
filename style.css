@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.product-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+.description {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Checkbox Styles */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.color-options label,
+.size-options label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
